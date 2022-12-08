@@ -33,7 +33,7 @@ Before shifting them out of Excel to SQL, I created two new columns, one for rid
 
 I also filtered out ride_lengths taht were negative and didn't make sense. I wanted to disclude them so I left them as blank so I can filter them out as null in SQL.
 
-I officially pulled them out of Excel and into SQL and combined all the tables into one by union.
+I officially pulled them out of Excel and into SQL and combined all the tables into one.
 
 ## Analyze
 
@@ -41,13 +41,20 @@ I officially pulled them out of Excel and into SQL and combined all the tables i
 ## Share
 All the visuals that I did are on Tableau at https://public.tableau.com/views/CyclisticCaseStudy_16702916011230/EndMap?:language=en-US&:display_count=n&:origin=viz_share_link.
 
-### Act
-I was meant to give my top three recomendations to convert casual riders to members from my findings.
-
-#### Thoughts
+## Act
+I was to give my top three recomendations to convert casual riders to members from my findings.
 
 There are a couple of differences that I noted between members and casual riders.
-- 
+
+- While there are more members using classic and electric bikes, only casual riders seem to use the docked bikes.
+- Members and Casual Riders tend to use bikes the same amount during the weekends, they increase their usage during the weekdays while Casual Riders tend to decrease usage.
+- While they both hit their lowest in January, Members hit their peak in August and Casual Riders hit their peak in July.
+- While Majority of the Member and Casual trips are under an hour, Casual Trips are more likely to last longer than an hour.
+- When looking at the top twenty routes for each type of rider, Casual Riders had way more instances where they returned the bikes at the exact station they recieved them.
 
 #### Recomendations
+My top three recomendations to increase the amount of annual memberships are:
 
+- Since Casual Riders are more likely to return to the same station, this might mean that they don't have an extensive knowledge on the location of stations. If Cyclistic has an app, it would be helpful in letting riders know where the locations of the stations are and if they are in proximity, to make it easier for the riders to find.
+- Since there seem to be a huge decrease of riders during the holidays, it would be hlepful to have holiday deals.
+- There are less casual riders during the weekdays than weekends so it might be ideal to add levels of memberships, such as one able to be used just for the weekends or weekdays, or maybe even just the summer or winter.
