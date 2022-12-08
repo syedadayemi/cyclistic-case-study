@@ -41,7 +41,7 @@ Any analysis that was done was just looking at the data on Excel and SQL, possib
 (If I get time, I would love to go back and put some extra SQL code maybe analyzing just one month. It took me hours to upload the modified files into SQL as it was over 5 million rows worth of data after removing some of it and splitting them into seperate csv files on Excel so I don't want to take another five hours uploading raw data. Once finished, I'll put it in another file on here.)
 
 ## Share
-All the visuals that I did are on Tableau at https://public.tableau.com/views/CyclisticCaseStudy_16702916011230/EndMap?:language=en-US&:display_count=n&:origin=viz_share_link.
+All the visuals that I did are on Tableau at https://public.tableau.com/app/profile/syeda.dayemi/viz/CyclisticCaseStudy_16702916011230/FullDashboard.
 
 ## Act
 I was to give my top three recommendations to convert casual riders to members from my findings.
