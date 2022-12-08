@@ -31,18 +31,20 @@ Before shifting them out of Excel to SQL, I created two new columns, one for rid
 =WEEKDAY(started_at,1)
 ```
 
-I also filtered out ride_lengths taht were negative and didn't make sense. I wanted to disclude them so I left them as blank so I can filter them out as null in SQL.
+I also filtered out ride_lengths that were negative and didn't make sense. I wanted to disclude them so I left them as blank so I can filter them out as null in SQL.
 
 I officially pulled them out of Excel and into SQL and combined all the tables into one.
 
 ## Analyze
+Any analysis that was done was just looking at the data on Excel and SQL, possibly mins, maxs, avgs, nulls, etc. Not much was extensively looked at as it was going to be looked at in Tableau as well. Most of the general SQL code was put on a file in this repository. 
 
+(If I get time, I would love to go back and put some extra SQL code maybe analyzing just one month. It took me hours to upload the modified files into SQL as it was over 5 million rows worth of data after removing some of it and splitting them into seperate csv files on Excel so I don't want to take another five hours uploading raw data. Once finished, I'll put it in another file on here.)
 
 ## Share
 All the visuals that I did are on Tableau at https://public.tableau.com/views/CyclisticCaseStudy_16702916011230/EndMap?:language=en-US&:display_count=n&:origin=viz_share_link.
 
 ## Act
-I was to give my top three recomendations to convert casual riders to members from my findings.
+I was to give my top three recommendations to convert casual riders to members from my findings.
 
 There are a couple of differences that I noted between members and casual riders.
 
@@ -53,7 +55,7 @@ There are a couple of differences that I noted between members and casual riders
 - When looking at the top twenty routes for each type of rider, Casual Riders had way more instances where they returned the bikes at the exact station they recieved them.
 
 #### Recomendations
-My top three recomendations to increase the amount of annual memberships are:
+My top three recommendations to increase the amount of annual memberships are:
 
 - Since Casual Riders are more likely to return to the same station, this might mean that they don't have an extensive knowledge on the location of stations. If Cyclistic has an app, it would be helpful in letting riders know where the locations of the stations are and if they are in proximity, to make it easier for the riders to find.
 - Since there seem to be a huge decrease of riders during the holidays, it would be hlepful to have holiday deals.
