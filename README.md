@@ -21,7 +21,7 @@ I was given the bike data from Nov 2021 to Oct 2022. The data was retrieved from
 ## Process
 This part got a bit messy and took a bit of time since the files were so large and I didn't have the systems to handle that.
 
-Overall, I checked the files individually in Excel. I checked for duplicates for the ride_id (which would be check again in SQL later) and removed those. I also went through each column to double check nothing was misspelled.
+Overall, I checked the files individually in Excel. I checked for duplicates for the ride_id (which would be check again in SQL later) and removed those. I also went through each column to double check nothing was misspelled by filtering each column.
 
 Before shifting them out of Excel to SQL, I created two new columns, one for ride_length and another for day_of_week.
 
@@ -33,15 +33,21 @@ Before shifting them out of Excel to SQL, I created two new columns, one for rid
 
 I also filtered out ride_lengths taht were negative and didn't make sense. I wanted to disclude them so I left them as blank so I can filter them out as null in SQL.
 
-I officially pulled them out of Excel and into SQL.
-
-```
-
+I officially pulled them out of Excel and into SQL and combined all the tables into one by union.
 
 ## Analyze
 
 
 ## Share
-
+All the visuals that I did are on Tableau at https://public.tableau.com/views/CyclisticCaseStudy_16702916011230/EndMap?:language=en-US&:display_count=n&:origin=viz_share_link.
 
 ### Act
+I was meant to give my top three recomendations to convert casual riders to members from my findings.
+
+#### Thoughts
+
+There are a couple of differences that I noted between members and casual riders.
+- 
+
+#### Recomendations
+
