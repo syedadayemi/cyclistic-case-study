@@ -1,3 +1,13 @@
+/* 
+A lot of the filtering and checking was done on Excel prior to this.
+
+Duplicates were removed and each column was checked for missplellings
+
+A lot of the NULLs were not removed in Excel or SQL since they could have been filtered out in Tableau.
+*/
+
+-- This code was used to join all seperate 12 tables into 1
+
 SELECT *
 FROM (
   SELECT *
@@ -51,6 +61,9 @@ FROM (
   SELECT *
   FROM `cyclisticcase.12monthdata.SEP2022-2`
 ) AS combined;
+
+
+-- The two next statements could have been put together in 1 to create one table but that would have been too big to download at once so it was split into 2.
 
 SELECT row_number() over(ORDER BY started_at ASC) rownum, ride_id, rideable_type, member_casual, started_at, ended_at, ride_length,
 CASE day_of_week
